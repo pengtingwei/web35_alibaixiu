@@ -1,4 +1,5 @@
 module.exports = async (req, res) => {
+	// console.log(req.files);
 	// 建立结果数组
 	let imgsPath = [];
 	// 如果用户上传了文件
